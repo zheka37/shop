@@ -1,0 +1,42 @@
+.brand {
+    background: url(../img/fon.jpg);
+    height: 764px;
+    margin: 0 0 65px 0;
+
+    &__wrapper {
+        display: flex;
+    }
+    
+    &__line {
+        width: 12px;
+        background-color: #F16D7F;
+        margin: 0 16px 0 264px;
+    }
+    
+    &__rihgt {
+        display: flex;
+        padding-top: 290px;
+        padding-bottom: 382px;
+    }
+    
+    &__title {
+        font-size: 48px;
+        font-weight: 900;
+        line-height: 45px;
+        text-transform: uppercase;
+    }
+    
+    &__subtitle {
+        font-size: 37px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    
+    &__subtitle-pink {
+        font-size: 37px;
+        font-weight: 700;
+        color: #F16D7F;
+        text-transform: uppercase;
+    }
+}
+

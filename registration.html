@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/23a40d2d4d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>The brand of luxerious fashion</title>
+</head>         
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__wrapper">
+                <div class="header__left">
+                    <a href="index.html"><img class="header__logo" src="img/logo.svg" alt="logo"></a>
+                        <div class="header__form-search">
+                            <img class="header__loupe" src="img/loupe.svg" alt="loupe">
+                            <form class="header__form" action="#">  
+                                <div class="header__search-box">
+                                    <input class="header__search-text" type="search" placeholder="Enter search text">
+                                    <button class="header__submit" type="submit">Search</button>
+                                </div>
+                        </div>
+                </form>
+                </div>            
+                <div class="header__right">
+                    <div class="header__menu-list">
+                        <button type="button" class="header__button"><img class="header__menu" src="img/menu.svg" alt="menu"></button>  
+                        <nav class="navigation">
+                        <h2 class="navigation__title">menu</h2>
+                        <ul class="navigation__list">
+                            <li class="navigation__subtitle">
+                                <a class="navigation__subtitle-link" href="catalog.html">Man</a>
+                            <ul class="navigation__items">
+                                <li class="navigation__item">
+                                    <a class="navigation__item-link" href="catalog.html">Accessories</a>
+                                </li>
+                                <li class="navigation__item">
+                                    <a class="navigation__item-link" href="catalog.html">Bags</a>
+                                </li>
+                                <li class="navigation__item">
+                                    <a class="navigation__item-link" href="catalog.html">Denim</a>
+                                </li>
+                                <li class="navigation__item">
+                                    <a class="navigation__item-link"  href="catalog.html">T-Shirts</a>
+                                </li>
+                            </ul>
+                            </li>
+                            <li class="navigation__subtitle"><a class="navigation__subtitle-link" href="#">Woman</a>
+                                <ul class="navigation__items">
+                                    <li class="navigation__item"><a class="navigation__item-link" href="catalog.html">Accessories</a></li>
+                                    <li class="navigation__item"><a class="navigation__item-link" href="catalog.html">Jackets & Coats</a></li>
+                                    <li class="navigation__item"><a class="navigation__item-link" href="catalog.html">Polos</a></li>
+                                    <li class="navigation__item"><a class="navigation__item-link"  href="catalog.html">T-Shirts</a></li>
+                                    <li class="navigation__item"><a class="navigation__item-link"  href="catalog.html">Shirts</a></li>
+                                </ul>
+                            </li>
+                            <li class="navigation__subtitle"><a class="navigation__subtitle-link" href="#">Kids</a>
+                                <ul class="navigation__items">
+                                    <li class="navigation__item"><a class="navigation__item-link" href="catalog.html">Accessories</a></li>
+                                    <li class="navigation__item"><a class="navigation__item-link" href="catalog.html">Jackets & Coats</a></li>
+                                    <li class="navigation__item"><a class="navigation__item-link" href="catalog.html">Polos</a></li>
+                                    <li class="navigation__item"><a class="navigation__item-link"  href="catalog.html">T-Shirts</a></li>
+                                    <li class="navigation__item"><a class="navigation__item-link"  href="catalog.html">Shirts</a></li>
+                                    <li class="navigation__item"><a class="navigation__item-link"  href="catalog.html">Bags</a></li>
+                                </ul>
+                            </li>
+                                    </ul>
+                        </nav>
+                    </div> 
+                    <a href="registration.html" class="header__registr-link"><img class="header__registration" src="img/person.svg" alt="person"></a>
+                    <a href="сart.html"><img src="img/basket.svg" alt="basket"></a>
+
+                </div>
+            </div> 
+</div>   
+</header>   
+    <main>
+        <section class="registration-top">
+            <div class="registration-top__wrapper">
+                <div class="container">
+                    <h2 class="registration-top__text">
+                        registration
+                    </h2>
+                </div>
+            </div>
+        </section>
+        <section class="registration container">
+            <form class="registration__form" action="#">
+                <fieldset class="registration__form-box">
+                    <legend class="registration__heading">Your Name</legend>
+                    <input class="registration__field" type="text" placeholder="First Name">
+                    <input class="registration__field" type="text" placeholder="Last Name">
+                </fieldset>
+                <div class="registration__radio-box">
+                    <div>
+                        <input class="registration__form-input" id="male" type="radio" name="floor" value="male">
+                        <label class="registration__form-label" for="male">Male</label>
+                        
+                    </div>
+                    <div>
+                        <input class="registration__form-input" id="female" type="radio" name="floor" value="female">
+                        <label class="registration__form-label" for="female">Female</label>
+                        
+                    </div>
+                </div>
+                <fieldset class="registration__form-box">
+                    <legend class="registration__heading"> Login details</legend>
+                    <input class="registration__field" type="text" placeholder="Email">
+                    <input class="registration__field" type="text" placeholder="Password">
+                </fieldset>
+                <p class="registration__form-text">Please use 8 or more characters, with at least 1 number and a mixture
+                    of uppercase and lowercase letters</p>
+                <button class="registration__form-button" type="submit">JOIN NOW</button>
+            </form>
+            <div class="registration__loyalty">
+                <h2 class="registration__loyalty-text registration__loyalty-text_head">loyalty has its perks</h2>
+                <p class="registration__loyalty-text">Get in on the loyalty program where you can earn points and <br>
+                    unlock serious perks. Starting with these as soon as you join:</p>
+                <ul class="registration__loyalty-items">
+                    <li class="registration__loyalty-list">
+                        <p class="registration__loyalty-text">15% off welcome offer</p>
+                    </li>
+                    <li class="registration__loyalty-list">
+                        <p class="registration__loyalty-text">Free shipping, returns and exchanges on all orders
+                        </p>
+                    </li>
+                    <li class="registration__loyalty-list">
+                        <p class="registration__loyalty-text">$10 off a purchase on your birthday
+                        </p>
+                    </li>
+                    <li class="registration__loyalty-list">
+                        <p class="registration__loyalty-text">Early access to products</p>
+                    </li>
+                    <li class="registration__loyalty-list">
+                        <p class="registration__loyalty-text">Exclusive offers & rewards</p>
+                    </li>
+                </ul>
+            </div>
+
+
+        </section>
+    </main>
+    <footer class="footer">
+        <section class="footer-top__wrapper">
+            <div class="footer-top container">
+                <div class="footer-top__left">
+                    <img class="footer-top__img" src="img/woman.png" alt="woman" width="96px" height="96px">
+                    <p class="footer-top__text">“Vestibulum quis porttitor dui! Quisque <br> viverra nunc mi, <span
+                            class="footer-top__cursiv"> a pulvinar purus <br> condimentum“</span></p>
+                </div>
+                <div class="footer-top__right">
+                    <h2 class="footer-top__title"><span
+                            class="footer-top__title footer-top__title_bold">SUBSCRIBE</span> <br>
+                        FOR OUR NEWLETTER AND PROMOTION</h2>
+                    <div class="footer-top__sudscribe">
+                        <form class="footer-top__form" action="#">
+                            <input class="footer-top__input" type="email" placeholder="Enter Your Email">
+                            <button class="footer-top__button" type="submit">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+        </section>
+        <section class="footer-bottom">
+            <div class="footer-bottom__wrapper container">
+                <p class="footer-bottom__text">&copy 2021 Brand All Rights Reserved.</p>
+                <ul class="footer-bottom__social-box">
+                    <li class="footer-bottom__social-item">
+                        <a class="footer-bottom__social-link" href="#">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li class="footer-bottom__social-item">
+                        <a class="footer-bottom__social-link" href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li class="footer-bottom__social-item">
+                        <a class="footer-bottom__social-link" href="#">
+                            <i class="fab fa-pinterest-p"></i>
+                        </a>
+                    </li>
+                    <li class="footer-bottom__social-item">
+                        <a class="footer-bottom__social-link" href="#">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+            </div>
+
+            </div>
+        </section>
+    </footer>
+</body>
+
+</html>
