@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/23a40d2d4d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Catalog</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__wrapper">
+                <div class="header__left">
+                    <a href="index.html"><img class="header__logo" src="img/logo.svg" alt="logo"></a>
+                    <div class="header__form-search">
+                        <img class="header__loupe" src="img/loupe.svg" alt="loupe">
+                        <form class="header__form" action="#">
+                            <div class="header__search-box">
+                                <input class="header__search-text" type="search" placeholder="Enter search text">
+                                <button class="header__submit" type="submit">Search</button>
+                            </div>
+                    </div>
+                    </form>
+                </div>
+                <div class="header__right">
+                    <div class="header__menu-list">
+                        <button type="button" class="header__button"><img class="header__menu" src="img/menu.svg"
+                                alt="menu"></button>
+                        <nav class="navigation">
+                            <h2 class="navigation__title">menu</h2>
+                            <ul class="navigation__list">
+                                <li class="navigation__subtitle">
+                                    <a class="navigation__subtitle-link" href="catalog.html">Man</a>
+                                    <ul class="navigation__items">
+                                        <li class="navigation__item">
+                                            <a class="navigation__item-link" href="catalog.html">Accessories</a>
+                                        </li>
+                                        <li class="navigation__item">
+                                            <a class="navigation__item-link" href="catalog.html">Bags</a>
+                                        </li>
+                                        <li class="navigation__item">
+                                            <a class="navigation__item-link" href="catalog.html">Denim</a>
+                                        </li>
+                                        <li class="navigation__item">
+                                            <a class="navigation__item-link" href="catalog.html">T-Shirts</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="navigation__subtitle"><a class="navigation__subtitle-link" href="#">Woman</a>
+                                    <ul class="navigation__items">
+                                        <li class="navigation__item"><a class="navigation__item-link"
+                                                href="catalog.html">Accessories</a></li>
+                                        <li class="navigation__item"><a class="navigation__item-link"
+                                                href="catalog.html">Jackets & Coats</a></li>
+                                        <li class="navigation__item"><a class="navigation__item-link"
+                                                href="catalog.html">Polos</a></li>
+                                        <li class="navigation__item"><a class="navigation__item-link"
+                                                href="catalog.html">T-Shirts</a></li>
+                                        <li class="navigation__item"><a class="navigation__item-link"
+                                                href="catalog.html">Shirts</a></li>
+                                    </ul>
+                                </li>
+                                <li class="navigation__subtitle"><a class="navigation__subtitle-link" href="#">Kids</a>
+                                    <ul class="navigation__items">
+                                        <li class="navigation__item"><a class="navigation__item-link"
+                                                href="catalog.html">Accessories</a></li>
+                                        <li class="navigation__item"><a class="navigation__item-link"
+                                                href="catalog.html">Jackets & Coats</a></li>
+                                        <li class="navigation__item"><a class="navigation__item-link"
+                                                href="catalog.html">Polos</a></li>
+                                        <li class="navigation__item"><a class="navigation__item-link"
+                                                href="catalog.html">T-Shirts</a></li>
+                                        <li class="navigation__item"><a class="navigation__item-link"
+                                                href="catalog.html">Shirts</a></li>
+                                        <li class="navigation__item"><a class="navigation__item-link"
+                                                href="catalog.html">Bags</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <a href="registration.html" class="header__registr-link"><img class="header__registration"
+                            src="img/person.svg" alt="person"></a>
+                    <a href="сart.html"><img src="img/basket.svg" alt="basket"></a>
+
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="cart">
+            <div class="container">
+                <h1 class="cart__head">shopping cart</h1>
+            </div>
+        </section>
+        <section class="ordering container">
+            <div class="ordering__left">
+                <ul class="ordering__pucrhase">
+                    <li class="ordering__blank">
+                        <a class="ordering__blank-link" href="product.html"><img class="ordering__img"
+                                src="img/shop1.jpg" alt="cart" width="262" height="306"></a>
+                        <div class="ordering__text-box">
+                            <h2 class="ordering__text-heading">mango people <br> t-shirt</h2>
+                            <p class="ordering__text">Price: <span
+                                    class="ordering__text ordering__text_color">$300</span> </p>
+                            <p class="ordering__text">Color: Red</p>
+                            <p class="ordering__text">Size: Xl </p>
+                            <div class="ordering__quantity">
+                                <p class="ordering__text">Quantity:</p>
+                                <input class="ordering__input" type="number" value="0" min="1" max="99">
+                            </div>
+                            <button class="ordering__button" type="button"><img src="img/close.svg" alt="close"
+                                    width="18" height="18"></button>
+                        </div>
+                    </li>
+                    <li class="ordering__blank">
+                        <a class="ordering__blank-link" href="product.html"><img class="ordering__img"
+                                src="img/shop2.jpg" alt="cart" width="262" height="306"></a>
+                        <div class="ordering__text-box">
+                            <h2 class="ordering__text-heading">mango people <br> t-shirt</h2>
+                            <p class="ordering__text">Price: <span
+                                    class="ordering__text ordering__text_color">$300</span> </p>
+                            <p class="ordering__text">Color: Red</p>
+                            <p class="ordering__text">Size: Xl </p>
+                            <div class="ordering__quantity">
+                                <p class="ordering__text">Quantity:</p>
+                                <input class="ordering__input" type="number" value="0" min="0" max="99">
+                            </div>
+                            <button class="ordering__button" type="button"><img src="img/close.svg" alt="close"
+                                    width="18" height="18"></button>
+                        </div>
+                    </li>
+                </ul>
+                <div class="ordering__button-box">
+                    <button class="ordering__button_clear" type="reset">clear shopping cart</button>
+                    <a class="ordering__button_link" href="catalog.html">continue shopping</a>
+                </div>
+            </div>
+            <div class="ordering__right">
+                <form class="ordering__form" action="#">
+                    <fieldset class="ordering__shipping-adress">
+                        <legend class="ordering__shipping-adress-text">shipping adress
+                        </legend>
+                        <input class="ordering__shipping-address-input" type="text" placeholder="Bangladesh">
+                        <input class="ordering__shipping-address-input" type="text" placeholder="State">
+                        <input class="ordering__shipping-address-input" type="text" placeholder="Postcode / Zip">
+                        <button class="ordering__shipping-address-button" type="submit">get a quote</button>
+                    </fieldset>
+                </form>
+                <div class="ordering__checkout">
+                    <div class="ordering__checkout-box">
+                        <div class="ordering__checkout-box_alignment">
+                            <div class="ordering__sub-box">
+                                <p class="ordering__sub-text">sub total</p>
+                                <p class="ordering__sub-text"> $900</p>
+                            </div>
+                        </div>
+                        <div class="ordering__checkout-box_alignment">
+                            <div class="ordering__grand-box">
+                                <p class="ordering__grand-text">grand total</p>
+                                <p class="ordering__grand-text ordering__grand-text_color"> $900</p>
+                            </div>
+                        </div>
+
+                        <span class="ordering__line"></span>
+                        <button class="ordering__checkout-button" type="submit">proceed to checkout</button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+    <footer class="footer">
+        <section class="footer-top__wrapper">
+            <div class="footer-top container">
+                <div class="footer-top__left">
+                    <img class="footer-top__img" src="img/woman.png" alt="woman" width="96px" height="96px">
+                    <p class="footer-top__text">“Vestibulum quis porttitor dui! Quisque <br> viverra nunc mi, <span
+                            class="footer-top__cursiv"> a pulvinar purus <br> condimentum“</span></p>
+                </div>
+                <div class="footer-top__right">
+                    <h2 class="footer-top__title"><span
+                            class="footer-top__title footer-top__title_bold">SUBSCRIBE</span> <br>
+                        FOR OUR NEWLETTER AND PROMOTION</h2>
+                    <div class="footer-top__sudscribe">
+                        <form class="footer-top__form" action="#">
+                            <input class="footer-top__input" type="email" placeholder="Enter Your Email">
+                            <button class="footer-top__button" type="submit">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+        </section>
+        <section class="footer-bottom">
+            <div class="footer-bottom__wrapper container">
+                <p class="footer-bottom__text">&copy 2021 Brand All Rights Reserved.</p>
+                <ul class="footer-bottom__social-box">
+                    <li class="footer-bottom__social-item">
+                        <a class="footer-bottom__social-link" href="#">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li class="footer-bottom__social-item">
+                        <a class="footer-bottom__social-link" href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li class="footer-bottom__social-item">
+                        <a class="footer-bottom__social-link" href="#">
+                            <i class="fab fa-pinterest-p"></i>
+                        </a>
+                    </li>
+                    <li class="footer-bottom__social-item">
+                        <a class="footer-bottom__social-link" href="#">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+            </div>
+
+            </div>
+        </section>
+    </footer>
+</body>
+
+</html>
